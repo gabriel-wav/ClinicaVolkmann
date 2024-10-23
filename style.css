@@ -1,0 +1,9 @@
+// <uniquifier>: Use um nome de classe exclusivo e descritivo
+// <weight>: Use um valor de 300 a 900
+
+.rubik-<uniquifier> {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
