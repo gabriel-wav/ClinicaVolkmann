@@ -1,9 +1,50 @@
-// <uniquifier>: Use um nome de classe exclusivo e descritivo
-// <weight>: Use um valor de 300 a 900
 
-.rubik-<uniquifier> {
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+body {
+    margin: 0;
+
 }
+
+header {
+    display: flex;
+    background-color: gray;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lista {
+    display: flex;
+    background-color: rgb(83, 143, 49, 100);
+    border-bottom-left-radius: 40px;
+
+}
+
+.lista nav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.lista nav a {
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.lista nav a:last-child {
+    margin-right: 25px;
+
+}
+
+.lista-e-endereco {
+    display: flex;
+    flex-direction: column;
+}
+
+#instagram {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png");
+  
+
+}
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png");
