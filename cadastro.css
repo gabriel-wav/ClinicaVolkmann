@@ -55,3 +55,44 @@ button {
 button:hover {
   background-color:#748d88; /* Tom escuro no hover */
 }
+
+footer {
+  background-color:gray; /* Cor de fundo mais escura */
+  color: #ffffff; /* Texto branco */
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center; /* Alinha a imagem e o texto verticalmente */
+  justify-content: space-between; /* Espaça a imagem e o texto */
+}
+  
+.footer-image {
+  align-items: top;
+  max-width: 100px; /* Ajuste o tamanho da imagem */
+  padding: 5px;
+  margin-right: 20px; /* Espaçamento à direita da imagem */
+  border-radius: 10px;
+}
+
+.footer-text {
+  flex-grow: 1; /* Permite que o texto ocupe o espaço restante */
+}
+
+.footer-reference {
+  margin-top: 10px; /* Espaçamento acima da descrição */
+  text-align: center; /* Centraliza o texto da referência */
+  font-size: 12px; /* Tamanho da fonte menor */
+  color: #cccccc; /* Cor do texto da referência */
+}
+
+footer a {
+  color: #007bff; /* Cor do link */
+  text-decoration: none; /* Remove o sublinhado */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
