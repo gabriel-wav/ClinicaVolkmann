@@ -6,11 +6,11 @@ body {
 }
 
 .container {
-  max-width: 500px;
+  max-width: 600px;
   margin: auto;
   background: #a8c1bd; /* Cor principal */
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -31,7 +31,7 @@ input[type="date"],
 input[type="email"],
 input[type="tel"],
 textarea {
-  width: 100%;
+  width: 95%;
   padding: 10px;
   border: 1px solid #9bb4af; /* Tom intermediário */
   border-radius: 5px;
@@ -53,5 +53,5 @@ button {
 }
 
 button:hover {
-  background-color: #819a95; /* Tom escuro no hover */
+  background-color:#748d88; /* Tom escuro no hover */
 }
