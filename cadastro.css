@@ -12,6 +12,7 @@ body {
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 80px;
 }
 
 h1 {
@@ -55,59 +56,106 @@ button {
 button:hover {
   background-color:#748d88; /* Tom escuro no hover */
 }
-
 footer {
-  background-color: #343a40; /* Cor de fundo mais escura */
+  background-color: #5b5b5b;
   color: #ffffff;
-  padding: 10px 20px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  margin-top: 80px;
 }
 
-/* Organiza os itens em linha no footer principal */
 .footer-content {
   display: flex;
-  align-items: flex-start; /* Alinha os itens ao topo */
   justify-content: space-between;
-  max-width: 800px;
+  flex-wrap: wrap;
+  max-width: 1500px;
   margin: 0 auto;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #888;
 }
 
-.footer-image {
-  flex: 1;
-  margin-right: 20px; /* Espaçamento da imagem para a direita */
+.footer-logo img {
+  max-width: 180px;
+  margin-right: 80px;
+  border-radius: 10px;
 }
 
-.footer-image img {
-  max-width: 80px;
-  height: auto;
+.footer-section, .footer-navigation {
+  flex: 1 1 200px;
+  margin: 10px;
 }
 
-.footer-info {
-  display: flex;
-  flex-direction: column;
-  flex: 3;
-}
-
-/* Endereço e contato independentes */
-.footer-address {
-  margin-bottom: 10px; /* Espaçamento entre o endereço e o contato */
-}
-
-.footer-contact {
+.footer-section h3, .footer-navigation h3 {
+  font-size: 16px;
   margin-bottom: 10px;
+  color: #ffffff;
+  font-weight: bold;
 }
 
-.footer-reference {
-  margin-top: 10px;
-  text-align: center;
-  font-size: 12px;
+.footer-section p, .footer-navigation ul {
+  font-size: 14px;
+  line-height: 1.6;
   color: #cccccc;
 }
 
-footer a {
-  color: #007bff;
+.footer-navigation ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-navigation li {
+  margin: 5px 0;
+}
+
+.footer-navigation a {
+  color: #ffffff;
   text-decoration: none;
 }
 
-footer a:hover {
-  text-decoration: underline;
+.footer-navigation .button-gray {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #b3b3b3;
+  color: #5b5b5b;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.footer-navigation .button-gray:hover {
+  background-color: #a3a3a3;
+}
+
+.footer-section .button-red {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #ff0000;
+  color: #ffffff;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.footer-section .button-red:hover {
+  background-color: #cc0000;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: #cccccc;
+  margin-top: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 30px;
+}
+
+.social-icons a img {
+  width: 40px;
+  height: 40px;
 }
