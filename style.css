@@ -66,14 +66,15 @@ header img {
 }
 
 .informacao {
+    width: 100px;
+    margin-left: -260px;
     display: flex;
     flex-direction: column;
     flex-direction: column-reverse;
 }
 
-.enderecos2 {
-    display: flex;
-    justify-content: space-around;
+.enderecos2 { 
+    justify-content: space-between;
 
 }
 
@@ -83,6 +84,7 @@ header img {
 }
 
 footer {
+    display: flex;
     height: fit-content;
     justify-content: space-around;
     background-color: gray;
