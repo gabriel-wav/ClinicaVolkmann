@@ -1,0 +1,113 @@
+body {
+  font-family:"Montserrat", sans-serif;
+  background-color: #F9F2E7; /* Bege */
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #a8c1bd; /* Cor principal */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  /*color: #819a95; /* Um tom mais escuro */
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #748d88; /* Outro tom */
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #9bb4af; /* Tom intermediário */
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #8ea7a2; /* Tom suave */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
+
+button:hover {
+  background-color:#748d88; /* Tom escuro no hover */
+}
+
+footer {
+  background-color: #343a40; /* Cor de fundo mais escura */
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+/* Organiza os itens em linha no footer principal */
+.footer-content {
+  display: flex;
+  align-items: flex-start; /* Alinha os itens ao topo */
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-image {
+  flex: 1;
+  margin-right: 20px; /* Espaçamento da imagem para a direita */
+}
+
+.footer-image img {
+  max-width: 80px;
+  height: auto;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+
+/* Endereço e contato independentes */
+.footer-address {
+  margin-bottom: 10px; /* Espaçamento entre o endereço e o contato */
+}
+
+.footer-contact {
+  margin-bottom: 10px;
+}
+
+.footer-reference {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: #cccccc;
+}
+
+footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
