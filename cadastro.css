@@ -2,7 +2,7 @@ body {
   font-family:"Montserrat", sans-serif;
   background-color: #F9F2E7; /* Bege */
   margin: 0;
-  padding: 20px;
+  padding: 0px;
 }
 
 .container {
@@ -12,7 +12,7 @@ body {
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 80px;
+  margin-top: 80px;
 }
 
 h1 {
@@ -59,9 +59,13 @@ button:hover {
 footer {
   background-color: #5b5b5b;
   color: #ffffff;
-  padding: 10px;
   font-family: Arial, sans-serif;
   margin-top: 80px;
+  width: 100%; /* Para garantir que o rodapé ocupe toda a largura */
+   padding: 20px 0; /* Preenchimento superior e inferior */
+  position: relative; /* Para garantir que qualquer posicionamento absoluto funcione corretamente */
+  left: 0; /* Alinha à esquerda */
+  bottom: 0; /* Alinha ao fundo */
 }
 
 .footer-content {
@@ -69,20 +73,25 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
   max-width: 1500px;
-  margin: 0 auto;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #888;
+  width: 100%;
+   /* padding-bottom: 10px;
+  border-bottom: 1px solid #888;  */
 }
 
 .footer-logo img {
   max-width: 180px;
-  margin-right: 80px;
+  margin-right: 60px;
+  margin-left: 50px;
   border-radius: 10px;
+}
+.footer-logo p {
+margin-left: 50px;
+
 }
 
 .footer-section, .footer-navigation {
   flex: 1 1 200px;
-  margin: 10px;
+  margin: 10px 10px 10px 120px ;
 }
 
 .footer-section h3, .footer-navigation h3 {
