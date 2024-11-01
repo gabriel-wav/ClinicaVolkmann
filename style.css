@@ -65,41 +65,107 @@ header img {
 
 }
 
-.informacao {
-    width: 100px;
-    margin-left: -260px;
-    display: flex;
-    flex-direction: column;
-    flex-direction: column-reverse;
-}
-
-.enderecos2 { 
-    justify-content: space-between;
-
-}
-
-.texto {
-    width: 450px;
-
-}
-
 footer {
+    background-color: #5b5b5b;
+    color: #ffffff;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    margin-top: 80px;
+  }
+  
+  .footer-content {
     display: flex;
-    height: fit-content;
-    justify-content: space-around;
-    background-color: gray;
-
-}
-
-footer h5 {
-    margin: 0;
-    margin-right: 200px;
-    margin-bottom: 0px;
-}
-
-footer img {
-    padding: 5px;
-    border-radius: 20px;
-    width: 100px;
-
-}
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #888;
+  }
+  
+  .footer-logo img {
+    max-width: 180px;
+    margin-right: 80px;
+    border-radius: 10px;
+  }
+  
+  .footer-section, .footer-navigation {
+    flex: 1 1 200px;
+    margin: 10px;
+  }
+  
+  .footer-section h3, .footer-navigation h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .footer-section p, .footer-navigation ul {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #cccccc;
+  }
+  
+  .footer-navigation ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-navigation li {
+    margin: 5px 0;
+  }
+  
+  .footer-navigation a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer-navigation .button-gray {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #b3b3b3;
+    color: #5b5b5b;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .footer-navigation .button-gray:hover {
+    background-color: #a3a3a3;
+  }
+  
+  .footer-section .button-red {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .footer-section .button-red:hover {
+    background-color: #cc0000;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: #cccccc;
+    margin-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .social-icons a img {
+    width: 40px;
+    height: 40px;
+  }
+  
