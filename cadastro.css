@@ -56,27 +56,27 @@ button {
 button:hover {
   background-color:#748d88; /* Tom escuro no hover */
 }
-footer {
+/* footer {
   background-color: #5b5b5b;
   color: #ffffff;
   font-family: Arial, sans-serif;
   margin-top: 80px;
   width: 100%; /* Para garantir que o rodapé ocupe toda a largura */
-   padding: 20px 0; /* Preenchimento superior e inferior */
-  position: relative; /* Para garantir que qualquer posicionamento absoluto funcione corretamente */
-  left: 0; /* Alinha à esquerda */
-  bottom: 0; /* Alinha ao fundo */
-}
+   /* padding: 20px 0; Preenchimento superior e inferior
+  position: relative; Para garantir que qualquer posicionamento absoluto funcione corretamente
+  left: 0; Alinha à esquerda */ */
+  /* bottom: 0; /* Alinha ao fundo
+} */
 
-.footer-content {
+/* .footer-content {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   max-width: 1500px;
-  width: 100%;
+  width: 100%; */
    /* padding-bottom: 10px;
   border-bottom: 1px solid #888;  */
-}
+/* }
 
 .footer-logo img {
   max-width: 180px;
@@ -99,9 +99,9 @@ margin-left: 50px;
   margin-bottom: 10px;
   color: #ffffff;
   font-weight: bold;
-}
+} */
 
-.footer-section p, .footer-navigation ul {
+/* .footer-section p, .footer-navigation ul {
   font-size: 14px;
   line-height: 1.6;
   color: #cccccc;
@@ -128,9 +128,9 @@ margin-left: 50px;
   color: #5b5b5b;
   border-radius: 5px;
   text-align: center;
-}
+} */
 
-.footer-navigation .button-gray:hover {
+/* .footer-navigation .button-gray:hover {
   background-color: #a3a3a3;
 }
 
@@ -166,5 +166,5 @@ margin-left: 50px;
 
 .social-icons a img {
   width: 40px;
-  height: 40px;
-}
+  height: 40px; 
+} */
