@@ -2,7 +2,7 @@ body {
   font-family:"Montserrat", sans-serif;
   background-color: #F9F2E7; /* Bege */
   margin: 0;
-  padding: 0px;
+  padding: 20px;
 }
 
 .container {
@@ -12,7 +12,7 @@ body {
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 h1 {
@@ -55,4 +55,3 @@ button {
 
 button:hover {
   background-color:#748d88; /* Tom escuro no hover */
-}
