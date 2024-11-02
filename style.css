@@ -65,6 +65,25 @@ header img {
 
 }
 
+.inicio {
+  background-color: rgba(155, 180, 175, 1);
+
+}
+
+.agendarconsulta {
+  display: flex;
+  width: 200px;
+
+  background-color: rgba(116, 141, 136, 1);
+
+}
+
+.agendarconsulta h3 {
+  background-color:rgba(217, 217, 217, 1) ;
+  
+}
+
+
 footer {
     background-color: #5b5b5b;
     color: #ffffff;
