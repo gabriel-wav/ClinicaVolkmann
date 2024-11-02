@@ -66,13 +66,23 @@ header img {
 }
 
 .inicio {
+  padding: 100px;
+  display: flex;
+  justify-content:center;
   background-color: rgba(155, 180, 175, 1);
+  background-image: url(imagens/medico.jpg);
+  object-fit: cover;
 
 }
 
 .agendarconsulta {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   width: 200px;
+  border-radius: 10px;
+  font-style: oblique;
 
   background-color: rgba(116, 141, 136, 1);
 
@@ -80,9 +90,26 @@ header img {
 
 .agendarconsulta h3 {
   background-color:rgba(217, 217, 217, 1) ;
+  color: black;
+  border-radius: 5px;
   
 }
 
+.agendarconsulta h3:hover {
+  background-color:rgb(131, 131, 131) ;
+  color: rgb(0, 0, 0);
+  
+}
+
+.agendarconsulta a {
+  text-decoration: none;
+
+}
+
+.botaoflutuante {
+  
+  position: fixed;
+}
 
 footer {
     background-color: #5b5b5b;
