@@ -1,3 +1,7 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
 .texto {
   max-width: 70%; /* Limita a largura a 70% da tela */
   margin: 20px auto; /* Centraliza e adiciona margem em cima e embaixo */
