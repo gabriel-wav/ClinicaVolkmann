@@ -1,0 +1,30 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.texto {
+  max-width: 70%; /* Limita a largura a 70% da tela */
+  margin: 20px auto; /* Centraliza e adiciona margem em cima e embaixo */
+  padding: 20px; /* Adiciona espaçamento interno */
+  border: 2px solid #ccc; /* Borda cinza ao redor */
+  border-radius: 8px; /* Arredonda os cantos */
+  background-color: #f9f9f9; /* Cor de fundo para destacar o conteúdo */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve ao redor */
+  text-align: justify; /* Justifica o texto */
+}
+
+/* Estilo para o cabeçalho */
+header, h1 {
+  text-align: center;
+}
+
+/* Estilo para o link */
+a {
+  color: #0066cc; /* Cor do link */
+  text-decoration: none;
+}
+
+/* Efeito ao passar o cursor sobre o link */
+a:hover {
+  text-decoration: underline;
+}
