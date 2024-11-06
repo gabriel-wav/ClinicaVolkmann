@@ -66,13 +66,19 @@ header img {
 }
 
 .inicio {
-  padding: 100px;
   display: flex;
   justify-content:end;
   background-color: rgba(155, 180, 175, 1);
-  background-image: url(imagens/medico.jpg);
-  object-fit: cover;
 
+}
+
+.inicio img {
+  width: 800px;
+  padding-top: 0;
+  padding-left: 0;
+  padding-bottom: 100px;
+  padding-right: 300px;
+  border-bottom-right-radius: 500px;
 }
 
 .agendarconsulta {
