@@ -1,3 +1,7 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
 body {
   font-family:"Montserrat", sans-serif;
   background-color: #F9F2E7; /* Bege */
@@ -56,3 +60,4 @@ button {
 
 button:hover {
   background-color:#748d88; /* Tom escuro no hover */
+}
