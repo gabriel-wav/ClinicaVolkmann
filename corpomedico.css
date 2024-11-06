@@ -65,6 +65,11 @@
   margin-top: 0;
   color: #00796b;
 }
+.subtitulo h2 {
+  margin-top: 15px;
+  text-align: center;
+  color:  #00796b;
+}
 
 .descricao p {
   font-size: 0.9rem;
