@@ -7,6 +7,14 @@ body {
 
 }
 
+.lista {
+    background-color: rgb(83, 143, 49, 100);
+    border-bottom-left-radius: 40px;
+    margin-left: -50px;
+    
+
+}
+
 .lista nav {
     display: flex;
     justify-content: space-around;
@@ -146,6 +154,13 @@ form input {
     border: 1px solid #ccc;
 }
 
+.botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 80px;
+}
+
 button {
     background-color: white;
     color: black;
@@ -160,6 +175,20 @@ button {
     height: 40px;
     width: 70%;
     float: left;
+    white-space: nowrap;
+}
+
+.botao-2 {
+    color: #2fa018;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.icone-whatsapp {
+    width: 20px; /* Ajuste o tamanho conforme necessário */
+    height: 20px;
+    vertical-align: middle; /* Centraliza verticalmente */
+    padding-bottom: 2px;
 }
 
 button:hover {
