@@ -1,0 +1,39 @@
+.container-pai {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;           /* Define a largura do container */
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 120px;
+    padding-left: 20px;    /* Espaçamento interno */
+    background-color: #9BB4AF;  /* Cor de fundo */
+    border-radius: 30px;   /* Arredondamento dos cantos */
+}
+
+.texto-agende-conosco {
+    padding-right: 420px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.container-filho {
+    width: 600px;           /* Define a largura do container */
+    height: 300px;
+    padding: 20px;        /* Espaçamento interno */
+    background-color: #d9d9d9;  /* Cor de fundo */
+    border-radius: 30px;   /* Arredondamento dos cantos */
+    position: relative;
+}
+
+.container-filho::before {
+    content: '';
+    width: 1px; /* Largura da linha */
+    height: 100%; /* Altura da linha */
+    background-color: black; /* Cor da linha */
+    position: absolute;
+    left: 50%; /* Centraliza horizontalmente */
+    top: 0;
+    transform: translateX(-50%);
+}
