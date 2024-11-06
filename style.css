@@ -15,14 +15,6 @@ header {
     justify-content: space-between;
 }
 
-header a {
-  transition: all 0.3s ease;
-}
-
-header a:hover {
-  font-size: x-large;
-}
-
 header img {
     border-radius: 20px;
     padding: 10px 10px;
@@ -78,32 +70,13 @@ header img {
 }
 
 .inicio {
-  display: flex;
-  justify-content:end;
   background-color: rgba(155, 180, 175, 1);
 
 }
 
-.inicio img {
-  width: 800px;
-  padding-top: 0;
-  padding-left: 0;
-  padding-bottom: 100px;
-  padding-right: 300px;
-  border-bottom-right-radius: 500px;
-}
-
 .agendarconsulta {
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  padding: 10px;
-  width: 20000px;
-  height: 230px;
-  border-radius: 10px;
-  font-style: oblique;
-  bottom: 200px;
+  width: 200px;
 
   background-color: rgba(116, 141, 136, 1);
 
@@ -111,175 +84,8 @@ header img {
 
 .agendarconsulta h3 {
   background-color:rgba(217, 217, 217, 1) ;
-  color: black;
-  border-radius: 5px;
-  padding: 2px;
-  transition: all 0.3s ease;
-}
-
-.agendarconsulta h3:hover {
-  background-color:rgb(131, 131, 131) ;
-  color: rgb(0, 0, 0);
   
 }
-
-.agendarconsulta a {
-  text-decoration: none;
-
-}
-
-.botaoflutuante {
-  font-size: x-large;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-decoration: none;
-  left: 10px;
-  bottom: 10px;
-  position: fixed;
-}
-
-.botaoflutuante a {
-  text-decoration: none;
-  background-color:#888;
-  padding: 5px;
-  border-radius: 10px;
-  color: black;
-}
-
-.botaoflutuante a:hover {
-  background-color: green;
-}
-
-.confira {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  background-color: rgba(155, 180, 175, 1);
-  margin-top: 60px;
-  margin-bottom: 60px;
-  width: 350px;
-  text-align: center;
-  margin-left: 460px;
-  border-radius: 10px;
-  padding: 30px;
-}
-
-
-.confira h3 {
-  width: 100%;
-  margin: 0; 
-}
-
-.especialidades {
-  display: flex;
-  justify-content: space-around;
-}
-
-.card {
-  display: block;
-  text-align: center;
-  width: 250px;
-  background-color: rgba(217, 217, 217, 1);
-  padding: 10px;
-  border-radius: 10px;
-  border-style: solid;
-  border-color: black;
-  box-shadow: 1px 2px 5px black;
-
-}
-
-.card a{
-  text-decoration: none;
-  background-color: rgba(0, 0, 255, 1);
-  color: rgb(255, 255, 255);
-  padding: 5px;
-  border-radius: 10px;
-}
-
-.especialidades {
-  display: flex;
-  flex-direction: row;
-
-}
-
-.clinicos {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-image: url(imagens/doutores\ da\ pesada.jpg);
-  object-fit: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin-top: 100px;
-  padding: 100px;
-
-}
-
-.clinicos h4 {
-  font-size: xx-large;
-  color: white;
-
-}
-
-.clinicos h3 {
-  text-align: center;
-  background-color: rgba(138, 138, 138, 1);
-  padding: 10px;
-  border-radius: 10px;
-  color: white;
-  transition: all 0.3s ease;
-
-}
-
-.clinicos h3:hover {
-
-  background-color:  rgb(230, 230, 230);
-  color: black;
-
-
-}
-
-.clinicos a {
-  text-decoration: none;
-}
-
-.convenios {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  list-style: none;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.convenios li {
-  transition: all 0.3s ease;
-}
-
-.convenios a {
-    text-decoration: none;
-    color: black;
-}
-
-.convenios li:hover {
-  background-color: darkgreen;
-
-}
-
-.convenios h3 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.convenios li {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  border-color: rgba(121, 143, 49, 1);
-  border-style: solid;
-  padding: 10px;
-  border-radius: 10px;
-
-}
-
 
 
 footer {
