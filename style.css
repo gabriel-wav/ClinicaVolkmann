@@ -81,25 +81,28 @@ header img {
 }
 
 .inicio img {
-  width: 800px;
-  padding-top: 0;
-  padding-left: 0;
-  padding-bottom: 100px;
-  padding-right: 300px;
+  object-fit: fill;
+  z-index: 10;
+  margin-left: 500px;
+  margin-bottom: 50px;
+  margin-right: 500px;
+  width: 500px;
   border-bottom-right-radius: 500px;
 }
 
 .agendarconsulta {
-  display: flex;
-  align-items: center;
+  display: block;
+  align-self: center;
+  justify-self: center;
   flex-direction: column;
   text-align: center;
   padding: 10px;
-  width: 20000px;
   height: 230px;
   border-radius: 10px;
   font-style: oblique;
-  bottom: 200px;
+  width: 700px;
+  margin-right: 200px;
+  z-index: 1;
 
   background-color: rgba(116, 141, 136, 1);
 
