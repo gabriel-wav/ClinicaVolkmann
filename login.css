@@ -25,6 +25,12 @@
     background-color: #d9d9d9;  /* Cor de fundo */
     border-radius: 30px;   /* Arredondamento dos cantos */
     position: relative;
+    font-weight: bold;
+}
+
+.texto-sem-contorno {
+    margin-top: 12%;
+    font-weight: lighter;
 }
 
 .container-filho::before {
@@ -36,4 +42,25 @@
     left: 50%; /* Centraliza horizontalmente */
     top: 0;
     transform: translateX(-50%);
+}
+
+.botao-cadastre-se {
+    height: 50px;
+    width: 200px;
+    background-color: #748D88; /* Cor de fundo */
+    color: black; /* Cor do texto */
+    margin-top:12%;
+    margin-left: 6%;
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remove a borda padrão */
+    border-radius: 25px; /* Bordas arredondadas */
+    cursor: pointer; /* Mostra um cursor de mão ao passar o mouse */
+    font-size: 12px; /* Tamanho da fonte */
+    font-weight: bold;
+    transition: background-color 0.3s; /* Suaviza a mudança de cor */
+}
+
+/* Efeito de hover */
+.botao-cadastre-se:hover {
+    background-color: #9BB4AF; /* Cor de fundo ao passar o mouse */
 }
