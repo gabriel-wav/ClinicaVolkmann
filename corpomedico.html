@@ -6,14 +6,63 @@
     <script src="footer.js" defer></script>
     <script src="header.js" defer></script>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="cadastro.css">
-    <title>Clinica Volkmann</title>
+    <link rel="stylesheet" href="corpomedico.css">
+    <title>Corpo Médico</title>
+    
 </head>
+<div id="header"></div>
 <body>
-    <div id="header"></div>
+    <section class="corpo-medico">
+        <h2>Nossos Especialistas</h2>
+                   <div class="medico" id="medico1">
+                <img src="imagens/Dr-Andrei_Sales.png" alt="Dr. Andrei Sales">
+                <button class="btn-descricao">Dr. Andrei Sales</button>
+                <div class="descricao">
+                    <h3>Dr. Andrei Sales</h3>
+                    <p><strong>Especialidade:</strong> Ortopedia Pediátrica</p>
+                    <p><strong>Descrição:</strong> Dr. Andrei Sales é um renomado especialista em ortopedia pediátrica, com ampla experiência no tratamento de condições ortopédicas em crianças e adolescentes. Com um enfoque cuidadoso e compassivo, ele se dedica a diagnosticar e tratar problemas ortopédicos congênitos e adquiridos, incluindo deformidades ósseas, fraturas e condições neuromusculares. Dr. Andrei é conhecido por seu compromisso com o bem-estar dos jovens pacientes e suas famílias, proporcionando cuidados inovadores e personalizados.</p>
+                </div>
+            </div>
+            <div class="medico" id="medico2">
+                <img src="imagens/Dr-Gustavo_Lima.png" alt="Dr. Gustavo Lima">
+                <button class="btn-descricao">Dr. Gustavo Lima</button>
+                <div class="descricao">
+                    <h3>Dr. Gustavo Lima</h3>
+                    <p><strong>Especialidade:</strong> Ortopedia Esportiva</p>
+                    <p><strong>Descrição:</strong> Dr. Gustavo Lima é especialista em ortopedia esportiva, focado na prevenção, diagnóstico e tratamento de lesões associadas ao esporte e à atividade física. Com vasta experiência em reabilitação de atletas e praticantes de exercícios de todos os níveis, Dr. Gustavo adota abordagens avançadas e personalizadas para promover uma recuperação eficaz e segura. Seu trabalho abrange desde tratamentos minimamente invasivos até reabilitação completa, ajudando os pacientes a retornar às suas atividades com confiança.</p>
+                </div>
+            </div>
+            <div class="medico" id="medico2">
+                <img src="imagens/Dr-Ricardo_Reis.png" alt="Dr. Ricardo Reis">
+                <button class="btn-descricao">Dr. Ricardo Reis</button>
+                <div class="descricao">
+                    <h3>Dr. Ricardo Reis</h3>
+                    <p><strong>Especialidade:</strong> cirurgia ortopédica e trauma</p>
+                    <p><strong>Descrição:</strong> Dr. Gustavo Reis é um especialista em cirurgia ortopédica e trauma, com vasta experiência no tratamento de lesões complexas e emergenciais. Ele dedica-se ao atendimento de pacientes com fraturas graves, lesões traumáticas nos ossos e articulações, e situações que requerem intervenções cirúrgicas avançadas. Dr. Gustavo é reconhecido pela sua habilidade em realizar procedimentos de reconstrução e correção com precisão, visando a recuperação funcional rápida e segura. Seu compromisso é garantir que cada paciente retorne à vida ativa com o máximo de conforto e mobilidade, aplicando as técnicas mais modernas da ortopedia.</p>
+                </div>
+            </div>
+            <div class="medico" id="medico2">
+                <img src="imagens/Dra-Carol_Carolina.png" alt="Dra. Carol Carolina">
+                <button class="btn-descricao">Dra. Carol Carolina</button>
+                <div class="descricao">
+                    <h3>Dra. Carol Carolina</h3>
+                    <p><strong>Especialidade:</strong> reabilitação Musculoesquelética</p>
+                    <p><strong>Descrição:</strong> Dra. Carol Carolina é especialista em reabilitação musculoesquelética, com enfoque em ajudar pacientes a recuperar a força, mobilidade e qualidade de vida após lesões ou condições crônicas do sistema musculoesquelético. Ela atua no tratamento de problemas como dores nas articulações, lesões musculares, e condições degenerativas, utilizando métodos personalizados para cada paciente. Conhecida por sua abordagem empática e orientada à recuperação funcional, Dra. Carol utiliza técnicas avançadas e exercícios terapêuticos para restaurar o bem-estar físico e prevenir novas lesões. Sua prioridade é proporcionar uma reabilitação eficaz e completa para que os pacientes possam retomar suas atividades diárias com segurança e confiança.</p>
+                </div>
+            </div>
+        <!-- Adicione mais médicos conforme necessário -->
+    </section>
 
-<div id="footer"></div>
-
+    <script>
+        function mostrarDescricao(id) {
+            var descricao = document.getElementById(id);
+            if (descricao.style.display === "block") {
+                descricao.style.display = "none";
+            } else {
+                descricao.style.display = "block";
+            }
+        }
+    </script>
 </body>
 
 <div id="footer"></div>
