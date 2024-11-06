@@ -7,6 +7,7 @@
     background-color: #f4f4f4;
 }
 
+
 .medico {
   position: relative;
   text-align: center;
@@ -18,6 +19,7 @@
   padding: 20px;
 }
 
+
 .medico img {
   width: 100%;
   height: 250px;
@@ -25,6 +27,7 @@
   border-radius: 50%;
   margin-bottom: 15px;
 }
+
 
 .medico button {
   background-color: #4CAF50;
@@ -37,9 +40,11 @@
   margin-bottom: 15px;
 }
 
+
 .medico button:hover {
   background-color: #45a049;
 }
+
 
 /* Estilos da caixa de descrição sobrepondo a imagem */
 .descricao {
@@ -57,14 +62,22 @@
   overflow-y: auto;
 }
 
+
 .medico:hover .descricao {
   display: block; /* Exibe a descrição ao passar o mouse sobre o card */
 }
+
 
 .descricao h3 {
   margin-top: 0;
   color: #00796b;
 }
+.subtitulo h2 {
+  margin-top: 15px;
+  text-align: center;
+  color:  #00796b;
+}
+
 
 .descricao p {
   font-size: 0.9rem;
