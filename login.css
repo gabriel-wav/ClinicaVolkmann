@@ -24,16 +24,4 @@
     padding: 20px;        /* Espaçamento interno */
     background-color: #d9d9d9;  /* Cor de fundo */
     border-radius: 30px;   /* Arredondamento dos cantos */
-    position: relative;
-}
-
-.container-filho::before {
-    content: '';
-    width: 1px; /* Largura da linha */
-    height: 100%; /* Altura da linha */
-    background-color: black; /* Cor da linha */
-    position: absolute;
-    left: 50%; /* Centraliza horizontalmente */
-    top: 0;
-    transform: translateX(-50%);
 }
