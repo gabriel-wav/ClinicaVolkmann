@@ -11,6 +11,14 @@ header {
   justify-content: space-between;
 }
 
+header a {
+  transition: all 0.3s ease;
+}
+
+header a:hover {
+  font-size: x-large;
+}
+
 header img {
   border-radius: 20px;
   padding: 10px 10px;
