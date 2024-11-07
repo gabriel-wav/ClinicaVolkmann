@@ -27,7 +27,6 @@ header img {
   background-color: rgb(83, 143, 49, 100);
   border-bottom-left-radius: 40px;
   margin-left: -50px;
-  
 
 }
 
@@ -45,6 +44,12 @@ header img {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   color: white;
+  transition: all 0.3s ease;
+
+}
+
+.lista nav a:hover {
+  font-size: x-large;
 
 }
 
