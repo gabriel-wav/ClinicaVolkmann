@@ -19,6 +19,9 @@
 }
 
 .container-filho {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 600px;           /* Define a largura do container */
     height: 300px;
     padding: 20px;        /* Espaçamento interno */
@@ -26,6 +29,10 @@
     border-radius: 30px;   /* Arredondamento dos cantos */
     position: relative;
     font-weight: bold;
+}
+
+.nao-tenho-cadastro {
+
 }
 
 .texto-sem-contorno {
@@ -63,4 +70,26 @@
 /* Efeito de hover */
 .botao-cadastre-se:hover {
     background-color: #9BB4AF; /* Cor de fundo ao passar o mouse */
+}
+.ja-tenho-cadastro {
+    margin-left: 62%;
+    margin-top: 0%;
+    
+}
+
+.nao-tenho-cadastro {
+    display: flex;
+    justify-content: center; /* Espaça os textos ao máximo */
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%; /* Ajusta a largura se necessário */
+}
+
+.texto-nao {
+    margin-right: 100px; /* Aumente este valor para mais espaçamento */
+}
+
+.texto-ja {
+    margin-left: 20px; /* Espaçamento no lado esquerdo do segundo texto */
 }
