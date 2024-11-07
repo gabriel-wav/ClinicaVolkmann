@@ -89,6 +89,8 @@ text-align: center;
 width: 200px;
 border-radius: 10px;
 font-style: oblique;
+padding: 50px;
+margin: 50px;
 
 background-color: rgba(116, 141, 136, 1);
 
@@ -99,6 +101,7 @@ background-color:rgba(217, 217, 217, 1) ;
 color: black;
 border-radius: 5px;
 padding: 2px;
+transition: all 0.3s ease;
 }
 
 .agendarconsulta h3:hover {
@@ -119,6 +122,7 @@ text-decoration: none;
 left: 10px;
 bottom: 10px;
 position: fixed;
+
 }
 
 .botaoflutuante a {
@@ -127,10 +131,12 @@ background-color:#888;
 padding: 5px;
 border-radius: 10px;
 color: black;
+transition: all 0.3s ease;
 }
 
 .botaoflutuante a:hover {
-background-color: green;
+background-color: rgb(47, 47, 47);
+color: white;
 }
 
 .confira {
@@ -178,6 +184,11 @@ background-color: rgba(0, 0, 255, 1);
 color: rgb(255, 255, 255);
 padding: 5px;
 border-radius: 10px;
+transition: all 0.3s ease;
+}
+
+.card a:hover {
+  padding: 10px;
 }
 
 .especialidades {
@@ -247,7 +258,8 @@ transition: all 0.3s ease;
 }
 
 .convenios li:hover {
-background-color: darkgreen;
+background-color:   rgb(186, 186, 186);
+padding: 10px;
 
 }
 
