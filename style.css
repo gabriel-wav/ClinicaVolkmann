@@ -320,6 +320,12 @@ footer {
   color: #cccccc;
 }
 
+.footer-section a {
+  text-decoration: none;
+  color: white;
+
+}
+
 .footer-navigation ul {
   list-style-type: none;
   padding: 0;
