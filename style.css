@@ -5,6 +5,8 @@ padding: 0;
 background-color: rgba(249, 242, 231, 1);
 }
 
+/* INICIO DO HEADER */
+
 header {
   display: flex;
   background-color: rgb(207, 207, 207);
@@ -81,6 +83,8 @@ header img {
   width: 60px;
   height: 60px;
 }
+
+/* FIM DO HEADER */
 
 .inicio {
 display: flex;
@@ -298,7 +302,7 @@ border-radius: 10px;
 
 }
 
-
+/* INICIO DO FOOTER */
 
 footer {
   background-color: #5b5b5b;
