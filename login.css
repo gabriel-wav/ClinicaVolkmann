@@ -22,8 +22,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-start;
     width: 600px;           /* Define a largura do container */
-    height: 300px;
+    height: 400px;
     padding: 20px;        /* Espaçamento interno */
     background-color: #d9d9d9;  /* Cor de fundo */
     border-radius: 30px;   /* Arredondamento dos cantos */
@@ -32,6 +33,9 @@
 }
 
 .texto-sem-contorno {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
     margin-top: 12%;
     font-weight: lighter;
     font-family: "Montserrat", sans-serif;
@@ -53,8 +57,8 @@
     width: 200px;
     background-color: #748D88; /* Cor de fundo */
     color: black; /* Cor do texto */
-    margin-top:12%;
-    margin-left: 6%;
+    margin-left: 5px;
+    margin-bottom: 60px;
     padding: 10px 20px; /* Espaçamento interno */
     border: none; /* Remove a borda padrão */
     border-radius: 25px; /* Bordas arredondadas */
@@ -89,4 +93,95 @@
 
 .texto-ja {
     margin-left: 20px; /* Espaçamento no lado esquerdo do segundo texto */
+}
+
+.se-essa {
+    margin-right: 100px; /* Aumente este valor para mais espaçamento */
+}
+
+.caixa-cpf {
+    display: flex;
+    flex-direction: column; /* Coloca o label acima do input */
+}
+
+.caixa-cpf label {
+    margin-left: 25px;
+    margin-right: 5px; /* Espaço entre o label e o input */
+    margin-bottom: 5px; /* Espaço entre o label e o input */
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.caixa-cpf input {
+    height: 30px;
+    padding: 10px;
+    padding-left: 26px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    width: 250px; /* Ajuste a largura conforme necessário */
+}
+
+.caixa-senha {
+    display: flex;
+    flex-direction: column; /* Coloca o label acima do input */
+    font-family: "Montserrat", sans-serif;
+    margin-left: 313px;
+}
+
+.caixa-senha label {
+    margin-left: 25px;
+    margin-right: 5px; /* Espaço entre o label e o input */
+    margin-bottom: 5px; /* Espaço entre o label e o input */
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.caixa-senha input {
+    height: 30px;
+    padding: 10px;
+    padding-left: 26px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    width: 250px; /* Ajuste a largura conforme necessário */
+}
+
+.container-botoes {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaçamento entre os elementos */
+    margin-top: 12%;
+    margin-left: 6%;
+}
+
+.texto-esqueceu-senha {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #333; /* Cor do texto "Esqueceu a senha" */
+    cursor: pointer; /* Aponta como um link */
+    text-decoration: underline; /* Adiciona sublinhado */
+    margin-bottom: 63px;
+    margin-left: 95px;
+    font-weight: lighter;
+}
+
+.botao-entrar {
+    height: 50px;
+    width: 150px;
+    background-color: #748D88; /* Cor de fundo */
+    color: black; /* Cor do texto */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-bottom: 60px;
+}
+
+/* Efeito de hover para o botão "Entrar" */
+.botao-entrar:hover {
+    background-color: #9BB4AF; /* Cor de fundo ao passar o mouse */
 }
