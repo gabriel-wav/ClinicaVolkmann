@@ -32,14 +32,14 @@ header img {
 
 .lista nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-;
   flex-direction: row;
   gap: 5px;
 }
 
 .lista nav a {
-  font-size: small;
-  margin-left: 50px;
+  font-size: medium;
+  margin-left: 8.7rem;
   margin-top: 35px;
   margin-bottom: 35px;
   font-family: "Montserrat", sans-serif;
