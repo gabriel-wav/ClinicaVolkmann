@@ -17,6 +17,7 @@ header {
 }
 
 header img {
+  margin-top: 1.5rem;
   border-radius: 20px;
   padding: 10px 10px;
   margin-right: 150px;
@@ -39,7 +40,7 @@ header img {
 
 .lista nav a {
   font-size: medium;
-  margin-left: 8.7rem;
+  margin-left: 8.63rem;
   margin-top: 35px;
   margin-bottom: 35px;
   font-family: "Montserrat", sans-serif;
@@ -77,6 +78,10 @@ header img {
 
 }
 
+.enderecos p {
+  margin-top: 1.6rem;
+}
+
 .enderecos a {
   padding-left: 50px;
 
@@ -106,7 +111,7 @@ width: 800px;
 padding-top: 0;
 padding-left: 0;
 padding-bottom: 50px;
-margin-right: 100px;
+margin-right: 50rem;
 border-bottom-right-radius: 500px;
 }
 
@@ -114,7 +119,7 @@ border-bottom-right-radius: 500px;
 display: flex;
 flex-direction: column;
 text-align: center;
-width: 200px;
+width: 100px;
 border-radius: 10px;
 font-style: oblique;
 padding: 50px;
@@ -183,7 +188,7 @@ margin-top: 60px;
 margin-bottom: 60px;
 width: 350px;
 text-align: center;
-margin-left: 460px;
+margin-left: 47rem;
 border-radius: 10px;
 padding: 30px;
 }
@@ -237,8 +242,10 @@ flex-direction: row;
 justify-content: space-around;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 background-image: url(imagens/doutores\ da\ pesada.jpg);
-object-fit: cover;
-background-repeat: no-repeat;
+background-size: cover;
+object-fit:cover;
+width: 107.5rem;
+background-repeat:no-repeat;
 background-attachment: fixed;
 margin-top: 100px;
 padding: 100px;
