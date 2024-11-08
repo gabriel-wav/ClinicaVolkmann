@@ -3,10 +3,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1100px;           /* Define a largura do container */
-    height: 500px;
+    width: 875px;           /* Define a largura do container */
+    height: 650px;
     margin: 0 auto;
     margin-top: 120px;
+    margin-bottom: 120px;
     padding-left: 20px;    /* Espaçamento interno */
     background-color: #9BB4AF;  /* Cor de fundo */
     border-radius: 30px;   /* Arredondamento dos cantos */
@@ -53,25 +54,58 @@
 }
 
 .botao-cadastre-se {
-    height: 50px;
-    width: 200px;
+    height: 18px;
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
     background-color: #748D88; /* Cor de fundo */
     color: black; /* Cor do texto */
     margin-left: 5px;
     margin-bottom: 60px;
-    padding: 10px 20px; /* Espaçamento interno */
+    padding: 20px 20px; /* Espaçamento interno */
     border: none; /* Remove a borda padrão */
-    border-radius: 25px; /* Bordas arredondadas */
+    border-radius: 29px; /* Bordas arredondadas */
     cursor: pointer; /* Mostra um cursor de mão ao passar o mouse */
+    font-family: "Montserrat", sans-serif;
     font-size: 12px; /* Tamanho da fonte */
     font-weight: bold;
     transition: background-color 0.3s; /* Suaviza a mudança de cor */
+    display: inline-block;
 }
 
 /* Efeito de hover */
 .botao-cadastre-se:hover {
     background-color: #9BB4AF; /* Cor de fundo ao passar o mouse */
 }
+
+.botao-entrar {
+    height: 18px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    background-color: #748D88; /* Cor de fundo */
+    color: black; /* Cor do texto */
+    padding: 20px 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border: none;
+    border-radius: 29px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-bottom: 60px;
+    display: inline-block;
+}
+
+/* Efeito de hover para o botão "Entrar" */
+.botao-entrar:hover {
+    background-color: #9BB4AF; /* Cor de fundo ao passar o mouse */
+}
+
 .ja-tenho-cadastro {
     margin-left: 62%;
     margin-top: 0%;
@@ -164,24 +198,5 @@
     margin-bottom: 63px;
     margin-left: 95px;
     font-weight: lighter;
-}
-
-.botao-entrar {
-    height: 50px;
-    width: 150px;
-    background-color: #748D88; /* Cor de fundo */
-    color: black; /* Cor do texto */
-    padding: 10px 20px;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    font-size: 12px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-    margin-bottom: 60px;
-}
-
-/* Efeito de hover para o botão "Entrar" */
-.botao-entrar:hover {
-    background-color: #9BB4AF; /* Cor de fundo ao passar o mouse */
+    text-decoration: none;
 }
