@@ -1,28 +1,32 @@
 
+
 body {
   margin: 0;
 padding: 0;
 background-color: rgba(249, 242, 231, 1);
 }
 
+/* INICIO DO HEADER */
+
 header {
   display: flex;
   background-color: rgb(207, 207, 207);
   flex-direction: row;
   justify-content: space-between;
+  
 }
 
 header img {
   border-radius: 20px;
   padding: 10px 10px;
-  margin-top: 15px;
+  margin-right: 150px;
 
 }
 
 .lista {
   background-color: rgb(83, 143, 49, 100);
   border-bottom-left-radius: 40px;
-  margin-left: -50px;
+  margin-left: -40px;
 
 }
 
@@ -30,31 +34,37 @@ header img {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-
+  gap: 5px;
 }
 
 .lista nav a {
-  margin-left: 30px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  font-size: small;
+  margin-left: 50px;
+  margin-top: 35px;
+  margin-bottom: 35px;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   color: white;
   transition: all 0.3s ease;
+  white-space: nowrap;
 
 }
 
 .lista nav a:hover {
-  font-size: x-large;
+  background-color: white;
+  color: #888;
+  padding: 5px;
+  border-radius: 10px;
 
 }
 
 .lista nav a:last-child {
-  margin-right: 25px;
+  margin-right: 50px;
 
 }
 
 .lista-e-endereco {
+  padding-left: 50px;
   display: flex;
   flex-direction: column;
 }
@@ -81,6 +91,8 @@ header img {
   width: 60px;
   height: 60px;
 }
+
+/* FIM DO HEADER */
 
 .inicio {
 display: flex;
@@ -298,14 +310,14 @@ border-radius: 10px;
 
 }
 
-
+/* INICIO DO FOOTER */
 
 footer {
   background-color: #5b5b5b;
   color: #ffffff;
   padding: 10px;
   font-family: Arial, sans-serif;
-  margin-top: 80px;
+  margin-top: 20px;
 }
 
 .footer-content {
