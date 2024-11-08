@@ -80,20 +80,25 @@
 }
 
 .botao-entrar {
-    height: 50px;
+    height: 18px;
     width: 150px;
     text-align: center;
+    text-decoration: none;
+    justify-content: center;
     background-color: #748D88; /* Cor de fundo */
     color: black; /* Cor do texto */
-    padding: 10px 20px;
+    padding: 20px 20px;
+    padding-right: 0px;
+    padding-left: 0px;
     border: none;
-    border-radius: 25px;
+    border-radius: 29px;
     cursor: pointer;
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
     font-weight: bold;
     transition: background-color 0.3s;
     margin-bottom: 60px;
+    display: inline-block;
 }
 
 /* Efeito de hover para o botão "Entrar" */
