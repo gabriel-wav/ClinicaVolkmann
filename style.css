@@ -26,7 +26,7 @@ header img {
 .lista {
   background-color: rgb(83, 143, 49, 100);
   border-bottom-left-radius: 40px;
-  margin-left: -50px;
+  margin-left: -40px;
 
 }
 
@@ -34,32 +34,37 @@ header img {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-
+  gap: 5px;
 }
 
 .lista nav a {
-  padding-left: 6px;
-  margin-left: 41px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  font-size: small;
+  margin-left: 50px;
+  margin-top: 35px;
+  margin-bottom: 35px;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   color: white;
   transition: all 0.3s ease;
+  white-space: nowrap;
 
 }
 
 .lista nav a:hover {
-  font-size: x-large;
+  background-color: white;
+  color: #888;
+  padding: 5px;
+  border-radius: 10px;
 
 }
 
 .lista nav a:last-child {
-  margin-right: 25px;
+  margin-right: 50px;
 
 }
 
 .lista-e-endereco {
+  padding-left: 50px;
   display: flex;
   flex-direction: column;
 }
