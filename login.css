@@ -3,10 +3,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1100px;           /* Define a largura do container */
-    height: 500px;
+    width: 875px;           /* Define a largura do container */
+    height: 650px;
     margin: 0 auto;
     margin-top: 120px;
+    margin-bottom: 120px;
     padding-left: 20px;    /* Espaçamento interno */
     background-color: #9BB4AF;  /* Cor de fundo */
     border-radius: 30px;   /* Arredondamento dos cantos */
@@ -57,6 +58,7 @@
     width: 150px;
     justify-content: center;
     text-align: center;
+    text-decoration: none;
     background-color: #748D88; /* Cor de fundo */
     color: black; /* Cor do texto */
     margin-left: 5px;
@@ -69,6 +71,7 @@
     font-size: 12px; /* Tamanho da fonte */
     font-weight: bold;
     transition: background-color 0.3s; /* Suaviza a mudança de cor */
+    display: inline-block;
 }
 
 /* Efeito de hover */
@@ -190,4 +193,5 @@
     margin-bottom: 63px;
     margin-left: 95px;
     font-weight: lighter;
+    text-decoration: none;
 }
