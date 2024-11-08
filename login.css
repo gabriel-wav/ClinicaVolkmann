@@ -57,8 +57,8 @@
     width: 200px;
     background-color: #748D88; /* Cor de fundo */
     color: black; /* Cor do texto */
-    margin-top:12%;
-    margin-left: 6%;
+    margin-left: 5px;
+    margin-bottom: 60px;
     padding: 10px 20px; /* Espaçamento interno */
     border: none; /* Remove a borda padrão */
     border-radius: 25px; /* Bordas arredondadas */
@@ -145,4 +145,43 @@
     border: 1px solid #ccc;
     border-radius: 25px;
     width: 250px; /* Ajuste a largura conforme necessário */
+}
+
+.container-botoes {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaçamento entre os elementos */
+    margin-top: 12%;
+    margin-left: 6%;
+}
+
+.texto-esqueceu-senha {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #333; /* Cor do texto "Esqueceu a senha" */
+    cursor: pointer; /* Aponta como um link */
+    text-decoration: underline; /* Adiciona sublinhado */
+    margin-bottom: 63px;
+    margin-left: 95px;
+    font-weight: lighter;
+}
+
+.botao-entrar {
+    height: 50px;
+    width: 150px;
+    background-color: #748D88; /* Cor de fundo */
+    color: black; /* Cor do texto */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-bottom: 60px;
+}
+
+/* Efeito de hover para o botão "Entrar" */
+.botao-entrar:hover {
+    background-color: #9BB4AF; /* Cor de fundo ao passar o mouse */
 }
